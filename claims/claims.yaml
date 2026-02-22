@@ -1,0 +1,20 @@
+# MIT License © 2025 Motohiro Suzuki
+
+claims:
+  - id: A1
+    name: Fail-Closed on Mismatch
+    lemma: lemma_fail_closed
+    attack: attack_01_mismatch
+    ci_status: PASS
+
+  - id: A2
+    name: Handshake Completeness
+    lemma: lemma_handshake
+    attack: attack_02_replay
+    ci_status: PASS
+
+  - id: A3
+    name: Epoch Monotonicity
+    lemma: lemma_epoch
+    attack: attack_03_rollback
+    ci_status: PASS
